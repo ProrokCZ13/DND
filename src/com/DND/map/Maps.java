@@ -74,9 +74,9 @@ public class Maps {
 
     public void OldFortress() {
         Entity[] enemies = {
-                new Entity(Enemies.KOKOT),
-                new Entity(Enemies.KOKOT),
-                new Entity(Enemies.KOKOT)
+                new Entity(Enemies.TURRET),
+                new Entity(Enemies.TURRET),
+                new Entity(Enemies.TURRET)
         };
         for (Entity enemy : enemies) {
         }

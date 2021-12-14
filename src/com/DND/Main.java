@@ -2,7 +2,7 @@ package com.DND;
 
 import com.DND.entities.Player;
 import com.DND.map.Maps;
-
+//import jaco.mp3.player.MP3Player;
 import java.io.File;
 import java.util.Scanner;
 
@@ -18,13 +18,13 @@ public class Main {
         Maps maps = new Maps(player);
     }
 
-    //   public static void Music() {
-    //       file = new File("src/cz/dracak/media/The Elder Scrolls IV - Oblivion Soundtrack - 04 Harvest Dawn.mp3");
-    //       music = new MP3Player(file);
-    //       while (true) {
-    //           music.play();
-    //       }
-    //   }
+      // public static void Music() {
+      //     file = new File("src/com/DND/media/The Elder Scrolls IV - Oblivion Soundtrack - 04 Harvest Dawn.mp3");
+      //     music = new MP3Player(file);
+       //    while (true) {
+       //        music.play();
+       //    }
+      // }
 
     public static void chooseName() {
         System.out.print("WHAT IS YOUR NAME?: ");
