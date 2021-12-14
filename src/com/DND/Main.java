@@ -41,55 +41,55 @@ public class Main {
             player.setDamage(40);
             player.setLuck(.15);
             player.setWallet(0);
-            System.out.println("You choosed CRUSADER");
+            System.out.println("You chose CRUSADER");
         } else if (type == 2) {
             player.setHealth(100);
             player.setDamage(20);
             player.setLuck(.35);
             player.setWallet(100);
-            System.out.println("You choosed BARBARIAN");
+            System.out.println("You chose BARBARIAN");
         } else if (type == 3) {
             player.setHealth(75);
             player.setDamage(10);
             player.setLuck(.50);
             player.setWallet(225);
-            System.out.println("You choosed ASSASSIN");
+            System.out.println("You chose ASSASSIN");
         } else if (type == 4) {
             player.setHealth(50);
             player.setDamage(75);
             player.setLuck(.10);
             player.setWallet(225);
-            System.out.println("You choosed NECROMANCER");
+            System.out.println("You chose NECROMANCER");
         } else if (type == 5) {
             player.setHealth(50);
             player.setDamage(70);
             player.setLuck(.10);
             player.setWallet(225);
-            System.out.println("You choosed MAGE");
+            System.out.println("You chose MAGE");
         } else if (type == 6) {
             player.setHealth(45);
             player.setDamage(70);
             player.setLuck(.45);
             player.setWallet(225);
-            System.out.println("You choosed HUNTER");
+            System.out.println("You chose HUNTER");
         } else if (type == 7) {
             player.setHealth(100);
             player.setDamage(60);
             player.setLuck(.50);
             player.setWallet(100);
-            System.out.println("You choosed PALADIN");
+            System.out.println("You chose PALADIN");
         } else if (type == 8) {
             player.setHealth(1);
             player.setDamage(1);
             player.setLuck(.100);
             player.setWallet(1000);
-            System.out.println("You choosed HAM");
+            System.out.println("You chose HAM");
         } else if (type == 9) {
             player.setHealth(100);
             player.setDamage(100);
             player.setLuck(.0);
             player.setWallet(0);
-            System.out.println("You choosed CUM");
+            System.out.println("You chose CUM");
         } else {
             System.out.println("Invalid choice!\n");
             chooseClass();
