@@ -29,7 +29,7 @@ public class Maps {
     public void WetLands() {
         Entity[] enemies = {
                 new Entity(Enemies.SLIME),
-                new Entity(Enemies.SLIME),
+                new Entity(Enemies.SNAIL),
                 new Entity(Enemies.SLIME)
         };
         for (Entity enemy : enemies) {
@@ -52,7 +52,7 @@ public class Maps {
     public void CrabBeach() {
         Entity[] enemies = {
                 new Entity(Enemies.CRAB),
-                new Entity(Enemies.CRAB),
+                new Entity(Enemies.GHOUL),
                 new Entity(Enemies.CRAB)
         };
         for (Entity enemy : enemies) {
@@ -75,8 +75,10 @@ public class Maps {
     public void OldFortress() {
         Entity[] enemies = {
                 new Entity(Enemies.TURRET),
+                new Entity(Enemies.CURSED_SOLDIER),
                 new Entity(Enemies.TURRET),
-                new Entity(Enemies.TURRET)
+                new Entity(Enemies.TURRET),
+                new Entity(Enemies.CURSED_MAGE)
         };
         for (Entity enemy : enemies) {
         }
@@ -133,7 +135,7 @@ public class Maps {
                 System.out.println("YOU'VE FOUND A CHEST.");
                 int coins = random.nextInt(100) + 1;
                 player.setWallet(player.getWallet() + coins);
-                System.out.println(" - You gain " + coins + " CR (" + player.getWallet() + ")");
+                System.out.println(" - You gain " + coins + " COINS (" + player.getWallet() + ")");
             }
         }
     }
