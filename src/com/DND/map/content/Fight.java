@@ -27,7 +27,7 @@ public class Fight {
             System.out.println("\nVICTORY! - " + enemy.getName() + " WAS DEFEATED");
             int coins = random.nextInt(100)+1;
             player.setWallet(player.getWallet() + coins);
-            System.out.println(" - You gain " + coins + " CR (" + player.getWallet() + ")");
+            System.out.println(" - You gain " + coins + " COINS (" + player.getWallet() + ")");
         }
 
         else {
