@@ -17,9 +17,9 @@ public class Shop {
 
     public void goShopping() {
         System.out.println(
-                "Your wallet : " + player.getWallet() + " CR\n" +
-                " - (1) - WEAPON UPGRADE (+15 DMG) : 100 CR\n" +
-                " - (2) - HEAL POTION    (+20 HP) : 75 CR\n" +
+                "Your wallet : " + player.getWallet() + " COINS\n" +
+                " - (1) - NEW WEAPON (+15 DMG) : 100 COINS\n" +
+                " - (2) - HEAL   (+20 HP) : 75 COINS\n" +
                 " - (0) - exit\n"
         );
         System.out.print("Choose: ");
