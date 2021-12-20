@@ -37,19 +37,19 @@ public class Main {
         System.out.println("HP: 120        |HP:50           |HP:100");
         System.out.println("DMG: 40        |DMG:75          |DMG:60");
         System.out.println("LUCK: 15       |LUCK:10         |LUCK:50");
-        System.out.println("CASH: 0        |CASH:225        |CASH:100");
+        System.out.println("COINS: 0       |COINS:225       |COINS:100");
         System.out.println("-----------------------------------------------");
         System.out.println(" 2 - BARBARIAN |5 - MAGE        |8 - HAM");
         System.out.println("HP: 100        |HP:50           |HP:1");
         System.out.println("DMG: 20        |DMG:70          |DMG:1");
         System.out.println("LUCK: 35       |LUCK:10         |LUCK:100");
-        System.out.println("CASH: 100      |CASH:225        |CASH:1000");
+        System.out.println("COINS: 100     |COINS:225       |COINS:1000");
         System.out.println("-----------------------------------------------");
         System.out.println("3 - ASSASSIN   |6 - HUNTER      |9 - CUM");
         System.out.println("HP:75          |HP:45           |HP:100");
         System.out.println("DMG:10         |DMG:70          |DMG:100");
         System.out.println("LUCK:50        |LUCK:45         |LUCK:0");
-        System.out.println("CASH:225       |CASH:225        |CASH:0");
+        System.out.println("COINS:225      |COINS:225       |COINS:0");
         System.out.print("CHOOSE YOUR CLASS: ");
         int type = scanner.nextInt();
         if (type == 1) {
