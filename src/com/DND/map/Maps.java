@@ -43,7 +43,7 @@ public class Maps {
             {MapElements.SHOP, MapElements.SHOP}
         };
         System.out.println("\nWET LANDS:");
-        System.out.println("YOUR MOTHER IS SICK. THE ONLY CURE IS IN MANSION OF VAMPIRE. YOUR TRAVEL WILL TAKE 50 DAYS.");
+        System.out.println("YOUR MOTHER IS SICK. THE ONLY CURE IS IN MANSION OF VAMPIRE. YOUR TRAVEL WILL TAKE 20 DAYS.");
         System.out.println("YOUR JOURNEY STARTED AT WET LANDS. IT'S LAND FULL OF SLIMES");
         Map(enemies, map);
         CrabBeach();
